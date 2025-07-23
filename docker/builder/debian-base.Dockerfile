@@ -1,6 +1,6 @@
 #syntax=docker/dockerfile:1.4
 
-FROM debian AS debian-base
+FROM debian:12.11 AS debian-base
 
 ARG TARGETARCH
 
